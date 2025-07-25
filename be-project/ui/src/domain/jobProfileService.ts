@@ -5,7 +5,7 @@ import config from "../config.js"
 import type { JobProfileModel, JobProfileSkill } from "./models.js";
 
 const supabase = createClient(config.ProjectURL, config.ServiceRole);
-const userId = "30d170e8-0137-4ec5-b770-a73e05af2298";
+const userId = "";
 
 
 export async function getJobProfiles() {

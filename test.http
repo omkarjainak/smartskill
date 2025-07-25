@@ -1,6 +1,0 @@
-DELETE http://localhost:4321/api/jobProfiles
-
-
-###
-
-GET http://localhost:4321/api/extract

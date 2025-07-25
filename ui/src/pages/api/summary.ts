@@ -7,7 +7,7 @@ const config = {
 }
 
 const openai = new OpenAI({
-    apiKey: "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"
+    apiKey:
 });
 export const POST: APIRoute = async ({ request }) => {
     const body = await request.json() as any;

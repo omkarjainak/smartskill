@@ -1,7 +1,7 @@
 import type { APIRoute } from 'astro';
 
 const API_CONFIG = {
-    URL: "https://google-search74.p.rapidapi.com"
+    URL: "https://google-search"
 }
 
 function validateJobProfile(jobProfile: string): string | null {
